@@ -15,5 +15,13 @@
     "ejs": "^4.0.1",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VE220589/PruebaLIST1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VE220589/PruebaLIST1/issues"
+  },
+  "homepage": "https://github.com/VE220589/PruebaLIST1#readme"
 }
