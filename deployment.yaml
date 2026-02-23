@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prueba-api-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: prueba-api
+  template:
+    metadata:
+      labels:
+        app: prueba-api
+    spec:
+      containers:
+      - name: prueba-api
+        image: ramos28/prueba-api:1.0
+        ports:
+        - containerPort: 3000
+        resources:
+          requests:
+            cpu: "100m"
+          limits:
+            cpu: "500m"
